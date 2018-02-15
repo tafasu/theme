@@ -1,0 +1,292 @@
+<html lang="th">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+    <title>TAFASU - Fansub Community</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css?v=3.3.6">
+    <link rel="stylesheet" href="css/tafasu.css?v=2018016-1">
+    <link rel="stylesheet" href="css/customize.css">
+    <link rel="stylesheet" href="css/clock-roll.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+    <link rel="shortcut icon" href="images/default-favicon.png">
+    <meta name="theme-color" content="#B52F28">
+    <meta property="og:image" content="https://i.imgur.com/4KTJuoM.png">
+    <meta property="og:title" content="TAFASU - Fansub Community">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.tafasu.com/">
+    <meta property="og:site_name" content="TAFASU - Fansub Community">
+    <meta property="og:locale" content="th_TH">
+  </head>
+  <body>
+    <header>
+      <section class="full-screen" id="header" style="background-image: url(images/banner-background.jpg);">
+        <div class="container">
+          <div class="logo">
+            <a href="/"><img src="images/logo.png" alt="TAFASU"></a>
+          </div>
+        </div>
+      </section>
+      <div class="clock-roll">
+        <p class="clock-roll-1"><img src="images/clock/clock_01.png" height="750" width="750" alt=""></p>
+        <p class="clock-roll-3"><img src="images/clock/clock_03.png" height="750" width="750" alt=""></p>
+        <p class="clock-roll-4"><img src="images/clock/clock_04.png" height="750" width="750" alt=""></p>
+      </div>
+      <nav class="navbar navbar-default web-navbar">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">TAFASU - Fansub Community</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> หน้าหลัก</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <span class="glyphicon glyphicon-film"></span> อนิเมะ<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="anime.html">อนิเมะทั้งหมด</a></li>
+                  <li><a href="season.html">โดยซีซั่น</a></li>
+                  <li><a href="genre.html">โดยประเภท</a></li>
+                </ul>
+              </li>
+              <li><a href="schedule.html">
+                <span class="glyphicon glyphicon-calendar"></span> ตารางปล่อย</a>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <span class="glyphicon glyphicon-folder-open"></span> รายชื่อค่าย<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="fansub.html">แฟนซับ</a></li>
+                  <li><a href="fandub.html">แฟนดั๊บ</a></li>
+                </ul>
+              </li>
+              <li><a href="donate.html"><span class="glyphicon glyphicon-bitcoin"></span> บริจาค</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-menu-hamburger"></span> กระทู้</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="fansubview.html" class="dropdown-toggle" data-toggle="dropdown"><span
+                  class="glyphicon glyphicon-log-in"></span><span> เข้าสู่ระบบ</span></a>
+                <ul id="login-dp" class="dropdown-menu">
+                  <li>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <form class="form" accept-charset="UTF-8">
+                          <div class="form-group">
+                            <label class="sr-only" for="Username">ชื่อผู้ใช้</label>
+                            <input name="user" type="text" class="form-control"
+                              placeholder="ชื่อผู้ใช้" required="">
+                          </div>
+                          <div class="form-group">
+                            <label class="sr-only" for="exampleInputPassword2">รหัสผ่าน</label>
+                            <input name="passwrd" type="password" class="form-control"
+                              placeholder="ลืมรหัสผ่าน?" required="">
+                            <div class="help-block text-right"><a href="#">ลืมรหัสผ่าน?</a></div>
+                          </div>
+                          <div class="bottom text-center">
+                            มาใหม่? <a href="#"><b>สมัครสมาชิก</b></a>
+                          </div>
+                          <input type="hidden" name="cookielength" value="-1">
+                          <input type="submit" value="เข้าสู่ระบบ" class="btn btn-primary btn-block">
+                        </form>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main style="position:relative;">
+      <div class="container">
+        <div class="rows">
+          <div class="col-sm-8">
+            <div class="fsdb" id="fsdb">
+              <ul class="nav nav-tabs">
+                <li class="active">
+                  <a href="?letter=A">A</a>
+                </li>
+                <li class="">
+                  <a href="?letter=B">B</a>
+                </li>
+                <li class="">
+                  <a href="?letter=C">C</a>
+                </li>
+                <li class="">
+                  <a href="?letter=D">D</a>
+                </li>
+                <li class="">
+                  <a href="?letter=E">E</a>
+                </li>
+                <li class="">
+                  <a href="?letter=F">F</a>
+                </li>
+                <li class="">
+                  <a href="?letter=G">G</a>
+                </li>
+                <li class="">
+                  <a href="?letter=H">H</a>
+                </li>
+                <li class="">
+                  <a href="?letter=I">I</a>
+                </li>
+                <li class="">
+                  <a href="?letter=J">J</a>
+                </li>
+                <li class="">
+                  <a href="?letter=K">K</a>
+                </li>
+                <li class="">
+                  <a href="?letter=L">L</a>
+                </li>
+                <li class="">
+                  <a href="?letter=M">M</a>
+                </li>
+                <li class="">
+                  <a href="?letter=N">N</a>
+                </li>
+                <li class="">
+                  <a href="?letter=O">O</a>
+                </li>
+                <li class="">
+                  <a href="?letter=P">P</a>
+                </li>
+                <li class="">
+                  <a href="?letter=Q">Q</a>
+                </li>
+                <li class="">
+                  <a href="?letter=R">R</a>
+                </li>
+                <li class="">
+                  <a href="?letter=S">S</a>
+                </li>
+                <li class="">
+                  <a href="?letter=T">T</a>
+                </li>
+                <li class="">
+                  <a href="?letter=U">U</a>
+                </li>
+                <li class="">
+                  <a href="?letter=V">V</a>
+                </li>
+                <li class="">
+                  <a href="?letter=W">W</a>
+                </li>
+                <li class="">
+                  <a href="?letter=X">X</a>
+                </li>
+                <li class="">
+                  <a href="?letter=Y">Y</a>
+                </li>
+                <li class="">
+                  <a href="?letter=Z">Z</a>
+                </li>
+                <li class="">
+                  <a href="?letter=naz">#</a>
+                </li>
+              </ul>
+              <h3>A</h3>
+              <div class="list-group">
+                <a class="list-group-item"> ค่ายแฟนซับ </a>
+                <a href="fansubview.html" class="list-group-item" style="background-color: #8BC34A; color:white;"> ค่ายแฟนซับ </a>
+                <a class="list-group-item"> ค่ายแฟนซับ </a>
+                <a class="list-group-item"> ค่ายแฟนซับ </a>
+                <a href="fansubview.html" class="list-group-item" style="background-color: #8BC34A; color:white;"> ค่ายแฟนซับ </a>
+                <a class="list-group-item"> ค่ายแฟนซับ </a>
+                <a href="fansubview.html" class="list-group-item" style="background-color: #8BC34A; color:white;"> ค่ายแฟนซับ </a>
+                <a href="fansubview.html" class="list-group-item" style="background-color: #8BC34A; color:white;"> ค่ายแฟนซับ </a>
+                <a class="list-group-item"> ค่ายแฟนซับ </a>
+                <a href="fansubview.html" class="list-group-item" style="background-color: #8BC34A; color:white;"> ค่ายแฟนซับ </a>
+                <a href="fansubview.html" class="list-group-item" style="background-color: #8BC34A; color:white;"> ค่ายแฟนซับ </a>
+                <a class="list-group-item"> ค่ายแฟนซับ </a>
+                <a class="list-group-item"> ค่ายแฟนซับ </a>
+                <a class="list-group-item"> ค่ายแฟนซับ </a>
+                <a class="list-group-item"> ค่ายแฟนซับ </a>
+                <a class="list-group-item"> ค่ายแฟนซับ </a>
+                <a href="fansubview.html" class="list-group-item" style="background-color: #8BC34A; color:white;"> ค่ายแฟนซับ </a>
+                <a href="fansubview.html" class="list-group-item" style="background-color: #757575; color:white;"> ค่ายแฟนซับ </a>
+                <a class="list-group-item"> ค่ายแฟนซับ </a>
+                <a class="list-group-item"> ค่ายแฟนซับ </a>
+                <a class="list-group-item"> ค่ายแฟนซับ </a>
+                <a class="list-group-item"> ค่ายแฟนซับ </a>
+                <a href="fansubview.html" class="list-group-item" style="background-color: #8BC34A; color:white;"> ค่ายแฟนซับ </a>
+                <a href="fansubview.html" class="list-group-item" style="background-color: #8BC34A; color:white;"> ค่ายแฟนซับ </a>
+                <a class="list-group-item"> ค่ายแฟนซับ </a>
+                <a class="list-group-item"> ค่ายแฟนซับ </a>
+                <a class="list-group-item"> ค่ายแฟนซับ </a>
+                <a class="list-group-item"> ค่ายแฟนซับ </a>
+                <a class="list-group-item"> ค่ายแฟนซับ </a>
+              </div>
+              <p style="color:#8BC34A;"><b><i>สีเขียว คือแฟนซับที่มีข้อมูลอนิเมะและโปรเจคบน TAFASU.com</i></b></p>
+              <p style="color:#757575;"><b><i>สีเทาคือแฟนซับที่ปิดแล้ว</i></b></p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <strong> ค้นหา</strong>
+            <form>
+              <div class="input-group">
+                <input type="search" class="form-control" placeholder="ค้นหา..." name="q" value="">
+                <span class="input-group-btn">
+                <button class="btn btn-primary" type="submit" style="height: 39px;"> <span
+                  class="glyphicon glyphicon-search"></span></button>
+                </span>
+              </div>
+            </form>
+            <strong>ปล่อยวันนี้</strong>
+            <div class="well well-sm">
+              <p><a href="animeview.html">[ชื่อแฟนซับ] ชื่อเรื่อง</a></p>
+            </div>
+            <strong>ติดตาม </strong>
+            <div class="well well-sm">
+              <div>
+                <a href="https://www.facebook.com/tafasu" target="_blank"><i class="fa fa-facebook-official"
+                  aria-hidden="true"></i>
+                facebook.com/tafasu</a>
+              </div>
+              <div>
+                <a href="https://twitter.com/tafasu_commu" target="_blank"><i class="fa fa-twitter"
+                  aria-hidden="true"></i>
+                twitter.com/tafasu_commu</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <img id="ai-chan-to-top"></img>
+      <div class="web-footer jumbotron"
+        style="margin-top:10px; margin-bottom:0px;/*background-color:#55AAFF;*/ padding-top: 10px; padding-bottom: 10px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4" style="color:#fff">
+              <a href="#!" id="onesignal-register" style="display:none;color:#fff;">
+              <span class="glyphicon glyphicon-flag" aria-hidden="true"></span>
+              รับการแจ้งเตือนอนิเมะใหม่ </a>
+              <a href="#!" id="onesignal-unregister" style="display:none;color:#fff;">
+              <span class="glyphicon glyphicon-volume-off" aria-hidden="true"></span>
+              ยกเลิกการแจ้งเตือนอนิเมะใหม่ </a>
+            </div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4" style="text-align: right;">
+              <font color="#fff">Copyright &copy; by<br/>TAFASU 2017 </font>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/anime-thumb.js"></script>
+    <script src="js/ai-chan-to-top.js"></script>
+  </body>
+</html>

@@ -5,11 +5,11 @@
     <title>TAFASU - Fansub Community</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css?v=3.3.6">
-    <link rel="stylesheet" href="css/ro.css">
     <link rel="stylesheet" href="css/tafasu.css?v=2018016-1">
+    <link rel="stylesheet" href="css/customize.css">
+    <link rel="stylesheet" href="css/clock-roll.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
-    <link rel="stylesheet" type="text/css" href="css/theme-xmas.css"/>
-    <link rel="shortcut icon" href="images/xmas-favicon.png">
+    <link rel="shortcut icon" href="images/default-favicon.png">
     <meta name="theme-color" content="#B52F28">
     <meta property="og:image" content="https://i.imgur.com/4KTJuoM.png">
     <meta property="og:title" content="TAFASU - Fansub Community">
@@ -27,8 +27,10 @@
           </div>
         </div>
       </section>
-      <div class="ro">
-        <p class="ro1"><img src="images/ro.png" height="750" width="750" alt=""></p>
+      <div class="clock-roll">
+        <p class="clock-roll-1"><img src="images/clock/clock_01.png" height="750" width="750" alt=""></p>
+        <p class="clock-roll-3"><img src="images/clock/clock_03.png" height="750" width="750" alt=""></p>
+        <p class="clock-roll-4"><img src="images/clock/clock_04.png" height="750" width="750" alt=""></p>
       </div>
       <nav class="navbar navbar-default web-navbar">
         <div class="container">
@@ -106,108 +108,109 @@
     </header>
     <main style="position:relative;">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
+        <div class="rows">
+          <div class="col-sm-8">
             <div>
-              <h3 style="margin-top:0;" class="page-header">
-                [
-                <a href="fansubview.html">ชื่อแฟนซับ</a> ]
-                <a href="animeview.html">ชื่อเรื่อง</a> ชื่อตอน
-              </h3>
+    <h3 style="margin-top:0;" class="page-header">ชื่ออนิเมะ</h3>
+    </div>
+    <div class="row">
+    <div class="col-sm-3">
+    <div align="center">
+    <img class="img-responsive" src="images/preview.jpg">
+    </div>
+    </div>
+    <div class="col-sm-9"><style type="text/css">.anime-tags{margin:0;padding:0;color:#777;}.anime-tags li{display:inline-block;}</style>
+    <ol class="anime-tags">
+    <small>ประเภท : </small>
+    <li><small><a href="genreview.html">ชื่อประเภท,</a> </small></li>
+    <li><small><a href="genreview.html">ชื่อประเภท2</a> </small></li>
+    </ol>
+    <ol class="anime-tags" style="margin-top:0px;margin-bottom:10px;">
+    <small>ออกอากาศเมื่อ : </small>
+    <li><small><a href="seasonview.html">ซีซั่นที่ฉาย</a> </small></li>
+    </ol>
+    <p style="margin-top:10px;">
+    เรื่องย่อของอนิเมะเรื่องนี้ ความยาวไม่สั้นไม่ยาวมากพออธิบายให้ผู้ใช้เข้าใจได้ </p>
+    <a href="https://myanimelist.net/anime/30695">
+    <img style="margin-top: 10px;margin-right: 5px;" src="images/myanimelist.png" width="100px">
+    </a>
+    <a style="margin-top: 10px;margin-bottom:10px;" class="btn btn-primary dropdown-toggle" href="#">
+    ไปยังกระทู้ของอนิเมะเรื่องนี้ </a>
+    </div>
+    </div>
+    <div class="projectDisplay">
+    <div>
+    <h4 class="page-header">
+    <a href="/fansub/ss" id="ss">
+    ชื่อแฟนซับ </a> <button type="button" class="btn" style="background-color:#43AC6A;color:white;">เสร็จแล้ว</button>
+    </h4>
+    </div>
+    <div>
+    <div class="well" style="margin-top:20px" align="center">
+    <div class="table">
+    <table class="table  table-striped table-hover">
+    <thead>
+    <tr>
+    <th width="15%">วันปล่อย</th>
+    <th width="70%">ชื่อเรื่อง - ตอน</th>
+    <th width="15%"></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>
+    22/03 </td>
+    <td>
+    <a aniid="389" href="watch.html" class="" target="_blank" data-original-title="" title="">
+    [ชื่อแฟนซับ] ชื่อเรื่อง </a>
+    - ชื่อตอน </td>
+    <td>
+    <a href="/watch?v=B4QrS9CUGd" class="btn btn-primary btn-sm" role="button">ดู &amp; ดาวน์โหลด</a>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+    </div>
+    </div>
+    </div>
+
+
+    </div>
+          </div>
+          <div class="col-sm-4">
+            <strong> ค้นหา</strong>
+            <form>
+              <div class="input-group">
+                <input type="search" class="form-control" placeholder="ค้นหา..." name="q" value="">
+                <span class="input-group-btn">
+                <button class="btn btn-primary" type="submit" style="height: 39px;"> <span
+                  class="glyphicon glyphicon-search"></span></button>
+                </span>
+              </div>
+            </form>
+            <strong>ปล่อยวันนี้</strong>
+            <div class="well well-sm">
+              <p><a href="animeview.html">[ชื่อแฟนซับ] ชื่อเรื่อง</a></p>
             </div>
-            <div class="col-sm-2">
-              <div align="center">
-                <img class="img-responsive" src="images/preview.jpg">
+            <strong>ติดตาม </strong>
+            <div class="well well-sm">
+              <div>
+                <a href="https://www.facebook.com/tafasu" target="_blank"><i class="fa fa-facebook-official"
+                  aria-hidden="true"></i>
+                facebook.com/tafasu</a>
+              </div>
+              <div>
+                <a href="https://twitter.com/tafasu_commu" target="_blank"><i class="fa fa-twitter"
+                  aria-hidden="true"></i>
+                twitter.com/tafasu_commu</a>
               </div>
             </div>
-            <div class="col-sm-10">
-              <style type="text/css">.anime-tags{margin:0;padding:0;color:#777;}.anime-tags li{display:inline-block;}</style>
-              <ol class="anime-tags" style="margin-top:10px;margin-bottom:0px;">
-                <small>ประเภท : </small>
-                <li><small><a href="genreview.html">ชื่อประเภท,</a> </small></li>
-                <li><small><a href="genreview.html">ชื่อประเภท,</a> </small></li>
-                <li><small><a href="genreview.html">ชื่อประเภท,</a> </small></li>
-                <li><small><a href="genreview.html">ชื่อประเภท</a> </small></li>
-              </ol>
-              <ol class="anime-tags" style="margin-top:0px;margin-bottom:10px;">
-                <small>ออกอากาศเมื่อ : </small>
-                <li><small><a href="seasonview.html">ชื่อซีซั่น</a> </small></li>
-              </ol>
-              <p>เรื่องย่อของอนิเมะเรื่องนี้ ความยาวไม่สั้นไม่ยาวมากพออธิบายให้ผู้ใช้เข้าใจได้</p>
-              <a style="margin-top: 10px;margin-bottom:10px;" class="btn btn-primary dropdown-toggle" href="#">ไปยังกระทู้ของอนิเมะเรื่องนี้</a>
-            </div>
           </div>
         </div>
-        <div class="well" style="margin-top:20px" align="center">
-          <ul class="nav nav-tabs">
-            <li class="active video-control" data-action="pause" onclick="togglePause($(this))" player="koofr">
-              <a data-toggle="tab" href="#koofr">
-              KOOFR </a>
-            </li>
-          </ul>
-          <div class="tab-content">
-            <div id="koofr" class="tab-pane fade in active">
-              <iframe allowfullscreen class="koofr" src="https://app.koofr.net/links/dab543c6-82b9-466a-81b9-0d91b10f73fd" style="width: 100%;border: 0px;min-height: 635px;overflow-y: hidden;" scrolling="no"></iframe>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-10" style="">
-            <div class="reaction-bar">
-              <button class="btn reaction-btn " id="reaction-like" data-reaction="like">
-                <div class="icon icon-like "></div>
-                <span>8</span>
-              </button>
-              <button class="btn reaction-btn" id="reaction-love" data-reaction="love">
-                <div class="icon icon-love "></div>
-                <span>1</span>
-              </button>
-              <button class="btn reaction-btn" id="reaction-laugh" data-reaction="laugh">
-                <div class="icon icon-laugh "></div>
-                <span>0</span>
-              </button>
-              <button class="btn reaction-btn" id="reaction-amazed" data-reaction="amazed">
-                <div class="icon icon-amazed "></div>
-                <span>0</span>
-              </button>
-              <button class="btn reaction-btn" id="reaction-sad" data-reaction="sad">
-                <div class="icon icon-sad "></div>
-                <span>0</span>
-              </button>
-            </div>
-          </div>
-          <div class="col-sm-2" style="margin-bottom:15px; text-align:right;padding-right:50px;">
-            <h3 style="margin-top:5px;">ดู 991</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <div>
-              <h4 style="margin-top:0;" class="page-header">ดาวน์โหลด</h4>
-            </div>
-            <div class="btn-group" role="group">
-              <a href="https://app.koofr.net/links/dab543c6-82b9-466a-81b9-0d91b10f73fd" target="_blank" class="btn btn-primary">
-              KOOFR
-              </a>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div>
-              <h4 style="margin-top:0;" class="page-header">ตอนก่อนหน้า</h4>
-            </div>
-            <a href="#" class="btn btn-primary btn-sm" role="button"><span class="glyphicon glyphicon-chevron-left"></span> ก่อนหน้า</a>
-          </div>
-          <div class="col-sm-3">
-            <div>
-              <h4 style="margin-top:0;" class="page-header">ตอนถัดไป</h4>
-            </div>
-            <a href="#" class="btn btn-primary btn-sm" role="button">ถัดไป <span class="glyphicon glyphicon-chevron-right"></span></a>
-          </div>
-        </div>
-        <input id="watch-hash" type="hidden" value="nwDPCvg6eM" />
       </div>
     </main>
     <footer>
+      <img id="ai-chan-to-top"></img>
       <div class="web-footer jumbotron"
         style="margin-top:10px; margin-bottom:0px;/*background-color:#55AAFF;*/ padding-top: 10px; padding-bottom: 10px;">
         <div class="container">
@@ -230,5 +233,6 @@
     </footer>
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/ai-chan-to-top.js"></script>
   </body>
 </html>
